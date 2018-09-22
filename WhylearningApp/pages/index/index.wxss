@@ -1,4 +1,5 @@
 /**index.wxss**/
+
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -9,21 +10,59 @@
   width: 64rpx;
   height: 64rpx;
   margin: 20rpx;
-  border-radius: 50%;
+ /* border-radius: 50%;*/
 }
 
 .userinfo-nickname {
   color: #aaa;
-  font-size: 16px;
+  font-size: 16rpx;
 }
 
 .usermotto {
   margin-top: 200px;
 }
+
 .coursename {
-  width: 33%;
+  /*width: 33%;*/
   height: 100px;
-  border: 0px solid black
+  border: 0px solid black;
+  
   align-items: center;
-  text-align:center;
+}
+
+
+.table {
+  border: 0px solid darkgray;
+}
+
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  /*height: 3rem;*/
+  align-items: center;
+}
+
+.td {
+  width: 40%;
+  justify-content: center;
+  text-align: center;
+}
+
+.bg-w {
+  background: snow;
+}
+
+.bg-g {
+  background: #e6f3f9;
+}
+
+.th {
+  width: 40%;
+  justify-content: center;
+  background: #36f;
+  color: #fff;
+  display: flex;
+  height: 3rem;
+  align-items: center;
 }
