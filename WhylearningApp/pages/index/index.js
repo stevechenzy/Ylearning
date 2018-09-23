@@ -18,6 +18,12 @@ Page({
       url: '../logs/logs'
     })
   },
+
+  gotoPBM2: function () {
+    wx.navigateTo({
+      url: '../PBM2/PBM2'
+    })
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({

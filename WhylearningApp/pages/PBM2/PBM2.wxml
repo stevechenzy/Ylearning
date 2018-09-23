@@ -1,0 +1,31 @@
+<!--pages/PBM2/PBM2.wxml-->
+<view class='title'>
+  Course List
+</view>
+<view class='table'>
+  <view class='tr'>
+    <button class='coursecode'>
+      coursename1
+    </button>
+  </view>
+
+
+  <view class='tr'>
+    <button class='coursecode'>
+      coursename2
+    </button>
+  </view>
+
+  <view class='tr'>
+    <button class='coursecode'>
+      coursename3
+    </button>
+  </view>
+
+
+  <view class='tr'>
+    <button class='addnewcoursebutton' plain='true' bindtap='gotoNewcourse'>
+      <image mode='aspectFit' src='../../images/添加.png' class='addnewcourse'></image>
+    </button>
+  </view>
+</view>

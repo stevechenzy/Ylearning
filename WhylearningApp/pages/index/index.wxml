@@ -10,106 +10,76 @@
 
   <view class="tr">
     <view class="td">
-
-      <block>
-        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover">
-        </image>
-        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-      </block>
-
+      <button class='coursename' bindtap='gotoPBM2'>
+      PBM2
+      </button>
     </view>
     <view class="td">
-      <button type='default' class='coursename'></button>
+      <button class='coursename'></button>
     </view>
     <view class="td">
-      <button type='default' class='coursename'></button>
+      <button class='coursename'></button>
     </view>
   </view>
 
   <view class="tr">
     <view class="td">
-
-      <block>
-        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover">
-        </image>
-        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-      </block>
-
+      <button class='coursename'></button>
     </view>
     <view class="td">
-      <button type='default' class='coursename'></button>
+      <button class='coursename'></button>
     </view>
     <view class="td">
-      <button type='default' class='coursename'></button>
+      <button class='coursename'></button>
     </view>
   </view>
 
   <view class="tr">
     <view class="td">
-
-      <block>
-        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover">
-        </image>
-        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-      </block>
-
+      <button class='coursename'></button>
     </view>
     <view class="td">
-      <button type='default' class='coursename'></button>
+      <button class='coursename'></button>
     </view>
     <view class="td">
-      <button type='default' class='coursename'></button>
+      <button class='coursename'></button>
     </view>
   </view>
+
   <view class="tr">
     <view class="td">
-
-      <block>
-        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover">
-        </image>
-        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-      </block>
-
+      <button class='coursename'></button>
     </view>
     <view class="td">
-      <button type='default' class='coursename'></button>
+      <button class='coursename'></button>
     </view>
     <view class="td">
-      <button type='default' class='coursename'></button>
+      <button class='coursename'></button>
     </view>
   </view>
+
   <view class="tr">
     <view class="td">
-
-      <block>
-        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover">
-        </image>
-        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-      </block>
-
+      <button class='coursename'></button>
     </view>
     <view class="td">
-      <button type='default' class='coursename'></button>
+      <button class='coursename'></button>
     </view>
     <view class="td">
-      <button type='default' class='coursename'></button>
+      <button class='coursename'></button>
     </view>
   </view>
+
   <view class="tr">
     <view class="td">
-
-      <block>
-        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover">
-        </image>
-        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-      </block>
-
+      <button class='coursename'></button>
     </view>
     <view class="td">
-      <button type='default' class='coursename'></button>
+      <button class='coursename'></button>
     </view>
     <view class="td">
-      <button type='default' class='coursename'></button>
+      <button class='coursename'></button>
     </view>
   </view>
+
 </view>

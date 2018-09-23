@@ -1,0 +1,12 @@
+/* pages/PBM2/Newcourse/Newcourse.wxss */
+
+.title {
+  height: 70px;
+}
+.input{
+  border-width:3px;
+  height: 100px;
+}
+.submitbtn{
+  background-color: rgb(59, 255, 20);
+}

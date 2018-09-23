@@ -1,0 +1,13 @@
+<!--pages/PBM2/Newcourse/Newcourse.wxml-->
+
+<view class='title'>
+  New Course
+</view>
+
+<view class='input'>Course Code:
+  <input name='courseCode' placeholder='e.g. PBM2-NA-18-09' bindinput='courseCodeInput'></input>
+</view>
+<view class='input'>Participant Number:
+  <input name='partNum' placeholder='20' bindinput='partNumInput'></input>
+</view>
+<button class='submitbtn' bindtap='submitbtnClick'>Submit</button>
