@@ -3,6 +3,7 @@
   Course List
 </view>
 <view class='table'>
+  <!--
   <view class='tr'>
     <button class='coursecode'>
       coursename1
@@ -21,7 +22,15 @@
       coursename3
     </button>
   </view>
+    -->
 
+  <block wx:for="{{PBM2sessionList}}" wx:for-item="item" wx:key="index">
+    <view class="tr">
+      <button class='coursecode'>
+      {{item}}
+    </button>
+    </view>
+  </block>
 
   <view class='tr'>
     <button class='addnewcoursebutton' plain='true' bindtap='gotoNewcourse'>

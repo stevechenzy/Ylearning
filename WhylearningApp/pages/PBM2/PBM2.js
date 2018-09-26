@@ -5,6 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    PBM2sessionList:[]
   
   },
   gotoNewcourse: function () {
@@ -16,7 +17,21 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    self=this
+    console.log("Request session list")
+    wx.request({
+      url: "https://192.144.204.236/pbm2/sessionlist",
+      header: {
+        'content-type': 'application/json'
+      },
+      success: function (res) {
+        console.log(res.data)
+        self.setData({
+          PBM2sessionList: res.data.Listdata
+        })
+      }
+    })
+  
   },
 
   /**

@@ -69,7 +69,7 @@ Page({
     var self = this;
     console.log("asdf: "+self.data.courseCode + " | " + self.data.partNum)
     wx.request({
-      url: "https://192.144.204.236/pbm2/cvs/query/createsession.py",
+      url: "https://192.144.204.236/pbm2/createsession",
       data:{
         coursecode: this.data.courseCode,
         partnum: this.data.partNum
