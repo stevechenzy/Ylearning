@@ -1,0 +1,31 @@
+/* pages/PBM2/joinSession/joinSession.wxss */
+
+.table {
+  border: 0px solid darkgray;
+}
+
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  /*height: 3rem;*/
+  align-items: center;
+  height: 52px;
+}
+
+.td {
+  width: 40%;
+  justify-content: center;
+  text-align: center;
+}
+
+.title {
+  height: 70px;
+}
+.input{
+  border-width:3px;
+  height: 100px;
+}
+.submitbtn{
+  background-color: rgb(59, 255, 20);
+}

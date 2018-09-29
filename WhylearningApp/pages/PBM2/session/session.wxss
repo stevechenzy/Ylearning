@@ -1,0 +1,24 @@
+/* pages/PBM2/session/session.wxss */
+
+.table {
+  border: 0px solid darkgray;
+}
+
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  /*height: 3rem;*/
+  align-items: center;
+  height: 52px;
+}
+
+.td {
+  width: 40%;
+  justify-content: center;
+  text-align: center;
+}
+
+.title {
+  height: 70px;
+}

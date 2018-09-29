@@ -3,7 +3,9 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/PBM2/PBM2",
-    "pages/PBM2/Newcourse/Newcourse"
+    "pages/PBM2/Newcourse/Newcourse",
+    "pages/PBM2/session/session",
+    "pages/PBM2/joinSession/joinSession"
   ],
   "tabBar": {
     "color": "#a9b7b7",

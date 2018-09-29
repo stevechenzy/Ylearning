@@ -3,6 +3,12 @@
   Course List
 </view>
 <view class='table'>
+  <view class='tr'>
+    <button class='coursecode' bindtap='joinSession'>
+      Join a session!
+    </button>
+  </view>
+
   <!--
   <view class='tr'>
     <button class='coursecode'>
@@ -26,7 +32,7 @@
 
   <block wx:for="{{PBM2sessionList}}" wx:for-item="item" wx:key="index">
     <view class="tr">
-      <button class='coursecode'>
+      <button class='coursecode' bindtap='gotoThiscourse'>
       {{item}}
     </button>
     </view>

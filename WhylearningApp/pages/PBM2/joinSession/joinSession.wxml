@@ -1,0 +1,16 @@
+<!--pages/PBM2/joinSession/joinSession.wxml-->
+<view class='title'>Join Session!</view>
+
+<view class="input">Session Name:
+  <input name='sessionName' placeholder='e.g. PBM2-NA-18-09' bindinput='sessionNameInput'></input>
+</view>
+<view class='input'>Your Name:
+  <input name='partName' placeholder='e.g. Zhang San' bindinput='partNameInput'></input>
+</view>
+<view class='input'>Your E-mail Address (Optional):
+  <input name='email' placeholder='e.g. abc@abc.com' bindinput='emailInput'></input>
+</view>
+<view class='input'>Your Organization Code (Optional):
+  <input name='orgCode' placeholder='e.g. ABC123' bindinput='orgCodeInput'></input>
+</view>
+<button class='submitbtn' bindtap='submitbtnClick'>Submit</button>

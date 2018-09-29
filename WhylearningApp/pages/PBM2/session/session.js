@@ -1,50 +1,18 @@
-// pages/PBM2/PBM2.js
+// pages/PBM2/session/session.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    PBM2sessionList:[]
-  
+
   },
-  // 新建课程
-  gotoNewcourse: function () {
-    wx.navigateTo({
-      url: 'Newcourse/Newcourse'
-    })
-  },
-  // 选择课程
-  gotoThiscourse: function(){
-    wx.navigateTo({
-      url: 'session/session',
-    })
-  },
-  // 加入课程
-  joinSession: function(){
-    wx.navigateTo({
-      url: 'joinSession/joinSession',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    self=this
-    console.log("Request session list")
-    wx.request({
-      url: "https://192.144.204.236/pbm2/sessionlist",
-      header: {
-        'content-type': 'application/json'
-      },
-      success: function (res) {
-        console.log(res.data)
-        self.setData({
-          PBM2sessionList: res.data.Listdata
-        })
-      }
-    })
-  
+
   },
 
   /**
